@@ -3,7 +3,7 @@ package unipe.ex.conta.teste;
 import junit.framework.TestCase;
 import unipe.ex.conta.ContaPoupanca;
 
-public class TestContaPoupanca extends TestCase{
+public class ContaPoupancaTest extends TestCase{
 	ContaPoupanca conta;
 	protected void setUp(){
 		conta = new ContaPoupanca("0001");
